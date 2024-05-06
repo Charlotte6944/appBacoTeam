@@ -1,7 +1,7 @@
 class TournoisController < ApplicationController
 
   def affichage_des_tournois
-    @tournois = Tournois.all
+    @tournois = Tournoi.all
   end
 
 end
